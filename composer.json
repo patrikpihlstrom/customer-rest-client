@@ -1,10 +1,10 @@
 {
     "name": "patrik/customer-rest-client",
     "type": "library",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "guzzlehttp/guzzle-services": "^1.0@dev",
-        "phpunit/phpunit": "6.5.x-dev"
+        "guzzlehttp/guzzle-services": "^1.0",
+        "phpunit/phpunit": "^6.5"
     },
   "autoload": {
     "psr-4": {
