@@ -17,9 +17,14 @@ class CustomerClient extends Client
     /**
      * CustomerClient constructor.
      */
-    public function __construct()
+    public function __construct($config = [])
     {
-        $config = include __DIR__ . '/../../api.php';
+        if ($config == [])
+        {
+
+            $config = include __DIR__ . '/../../api.php';
+        }
+
         parent::__construct($config);
     }
 
