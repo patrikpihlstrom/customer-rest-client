@@ -3,8 +3,8 @@
     "type": "library",
     "minimum-stability": "stable",
     "require": {
-        "guzzlehttp/guzzle-services": "^1.1@stable",
-        "phpunit/phpunit": "^6.5@stable"
+        "guzzlehttp/guzzle-services": "1.*@stable",
+        "phpunit/phpunit": "6.5.*@stable"
     },
   "autoload": {
     "psr-4": {
