@@ -3,7 +3,7 @@
     "type": "library",
     "minimum-stability": "stable",
     "require": {
-        "phpunit/phpunit": "~6.2.0",
+        "phpunit/phpunit": "^7.5",
         "guzzlehttp/guzzle-services": "1.*@stable"
     },
   "autoload": {

@@ -10,7 +10,7 @@
 use Patrik\CustomerClient\CustomerClient;
 use PHPUnit\Framework\TestCase;
 
-class TestGetCustomer extends TestCase
+class GetCustomerTest extends TestCase
 {
     /** @var CustomerClient */
     private $_client;
@@ -24,6 +24,7 @@ class TestGetCustomer extends TestCase
     public function testGetCustomerById()
     {
         $customer = $this->_client->getCustomer(100005);
+        print_r($customer);
         $this::assertArrayHasKey('status', $customer);
         $this::assertEquals($customer['status'], 'success');
     }

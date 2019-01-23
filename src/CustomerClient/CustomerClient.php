@@ -21,7 +21,6 @@ class CustomerClient extends Client
     {
         if ($config == [])
         {
-
             $config = include __DIR__ . '/../../api.php';
         }
 
